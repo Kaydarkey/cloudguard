@@ -133,8 +133,8 @@
           "Data Write",
           "Admin Activity"
         ],
-        "authorisedViews": "cloudguard:dataset.view1",
-        "datasetId": "cloudguard_audit_logscloud",
+        "authorisedViews": "cloudguard;dataset.view1",
+        "datasetId": "cloudguard_audit_log",
         "maxBytesBilled": "10",
         "queryAnomalyAlerts": "yes",
         "tableExpiry": "365"
@@ -187,7 +187,9 @@
         "autoMuteLowSeverity": "no",
         "findingCategories": [
           "Vulnerabilities",
-          "Misconfigurations"
+          "Misconfigurations",
+          "IAM Anomalies",
+          "Data Exfiltration"
         ],
         "minimumSeverity": "high",
         "notificationEmail": "darkeykafui@gmail.com",
